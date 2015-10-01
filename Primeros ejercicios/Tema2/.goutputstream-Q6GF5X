@@ -1,0 +1,18 @@
+/**
+ * Uso de variables enteras
+ *
+ * Jose Navarro
+ */
+ 
+public class Conversor {
+  public static void main(String[] args) {
+  
+    double euros = 50 ; 
+    double pesetas = (euros * 166.386);
+    
+    
+    System.out.printf("%.2f euros son  %.2f en pesetas" ,euros, pesetas);// para que salga solo dos decimales se pone %.2f
+  
+   }
+  }
+  

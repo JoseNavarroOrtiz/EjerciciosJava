@@ -1,0 +1,19 @@
+/**
+ * 1. Salida por pantalla
+ *
+ * 1. Escribe una programa que muestre una imagen hecha con caracteres por pantalla.
+ *
+ * 
+ */
+
+public class CaracterImagen{
+  public static void main(String[] args) {
+
+
+System.out.println("  __[-]__ ");
+System.out.println(" .. (*>*)"); 
+System.out.println(". (.. : .. ) ");
+System.out.println(" ( .. : . . )"); 
+}
+}
+

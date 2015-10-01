@@ -1,0 +1,12 @@
+/**
+ * Uso de variables enteras
+ *
+ * Jose Navarro
+ */
+ 
+public class CalculeFactura {
+  public static void main(String[] args) {
+  
+    double pesetas = 166.386;
+    double euros = 50 ; 
+    System.out.println("La cantidad en euros es " + (euros * pesetas));
