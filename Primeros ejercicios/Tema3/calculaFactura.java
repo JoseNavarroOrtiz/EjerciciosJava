@@ -9,7 +9,7 @@ public class calculaFactura{
     
   
   
-  double bImponible = 0;
+    double bImponible = 0;
     double iva = 0.21 ;
     String numero ="";
     

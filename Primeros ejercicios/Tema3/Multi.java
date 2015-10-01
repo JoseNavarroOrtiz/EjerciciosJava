@@ -4,7 +4,7 @@
  * Jose Navarro
  */
  
-public class operaciones{
+public class Multi{
   public static void main(String[] args) {
     
   String numero="";
@@ -22,9 +22,7 @@ public class operaciones{
     snumero = Double.parseDouble(numero);
     double total = (snumero*pnumero); 
     System.out.printf("El resultado de la multiplicacion es %.2f",total);
-    System.out.println("El resultado de la suma es %.2f" + (pnumero+snumero));
-    System.out.println("El resultado de la resta es " + (pnumero-snumero));
-    System.out.println("El resultado de la division es "+ (pnumero/snumero));
+  
     
    }
   }
