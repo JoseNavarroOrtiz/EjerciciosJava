@@ -15,22 +15,26 @@ public class ordenaNumeros{
   System.out.println("Introduce el tercer numero entero");
   int tercerNumero = Integer.parseInt(System.console().readLine());
   
-  if ((primerNumero <= segundoNumero)&&(primerNumero <= tercerNumero)&&(segundoNumero <= tercerNumero)){
+  
+  if ((primerNumero==segundoNumero)&&(segundoNumero == tercerNumero)){
+    System.out.printf("el orden de los numeros es indiferentes todos son iguales");
+    }
+  if ((primerNumero <= segundoNumero)&&(primerNumero <= tercerNumero)&&(segundoNumero < tercerNumero)){
     System.out.printf("El orden de los numeros de menor a mayor es %d < %d < %d", primerNumero,segundoNumero,tercerNumero);
     }
-  if((segundoNumero <= primerNumero)&&(segundoNumero <= tercerNumero)&&(primerNumero <= tercerNumero)){
+  if((segundoNumero <= primerNumero)&&(segundoNumero <= tercerNumero)&&(primerNumero < tercerNumero)){
     System.out.printf("El orden de los numeros de menor a mayor es %d < %d < %d",segundoNumero, primerNumero, tercerNumero);
     }
-  if((tercerNumero <= segundoNumero)&&(tercerNumero <= primerNumero)&&(primerNumero <= segundoNumero)){
+  if((tercerNumero <= segundoNumero)&&(tercerNumero <= primerNumero)&&(primerNumero < segundoNumero)){
     System.out.printf("El orden de los numeros de menor a mayor es %d < %d < %d",tercerNumero,primerNumero,segundoNumero);
     }
-  if((tercerNumero <= segundoNumero)&&(primerNumero <= tercerNumero)&&(primerNumero <= segundoNumero)){
+  if((tercerNumero <= segundoNumero)&&(primerNumero <= tercerNumero)&&(primerNumero < segundoNumero)){
     System.out.printf("El orden de los numeros de menor a mayor es %d < %d < %d",primerNumero,tercerNumero,segundoNumero);
     }
-  if((segundoNumero <= tercerNumero)&&(segundoNumero <= primerNumero)&&(tercerNumero <= primerNumero)){
+  if((segundoNumero <= tercerNumero)&&(segundoNumero <= primerNumero)&&(tercerNumero < primerNumero)){
     System.out.printf("El orden de los numeros de menor a mayor es %d < %d < %d",segundoNumero,tercerNumero,primerNumero);
     }
-  if((tercerNumero <= segundoNumero)&&(segundoNumero <= primerNumero)&&(tercerNumero <= primerNumero)){
+  if((tercerNumero <= segundoNumero)&&(segundoNumero <= primerNumero)&&(tercerNumero < primerNumero)){
     System.out.printf("El orden de los numeros de menor a mayor es %d < %d < %d",tercerNumero,segundoNumero,primerNumero);
     }
   

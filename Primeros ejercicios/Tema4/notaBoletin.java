@@ -15,7 +15,9 @@ public class notaBoletin{
       System.out.println("Introduce el tercer numero");
       double tercerNumero = Double.parseDouble(System.console().readLine());
       double suma = (primerNumero+segundoNumero+tercerNumero)/3;
-      if(suma<5){
+      if(((primerNumero >= 0)&&(primerNumero <=10))&&((segundoNumero >= 0)&&(segundoNumero <=10))&&((tercerNumero >= 0)&&(tercerNumero <=10))){
+          System.out.println("el resultado de la media es " + ((primerNumero+segundoNumero+tercerNumero)/3));
+          if(suma<5){
         System.out.println("Tu media es insuficiente");
       }
       if((suma>=5)&&(suma<6)){
@@ -32,6 +34,10 @@ public class notaBoletin{
         }
   
   
+      }else{
+        System.out.println("El numero no es correcto porque has introducido un numero que no esta entre el cero y el 10");
+      }
+      
   
     }
   }

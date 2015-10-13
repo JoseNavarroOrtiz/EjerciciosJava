@@ -34,7 +34,7 @@ public class horoscopo{
       if ((dia < 22) && (dia > 0)){
         System.out.println("Tu horoscopo es capricornio");
        } 
-      if ((dia > 22) && (dia < 32)){
+      if ((dia > 21) && (dia < 32)){
         System.out.println("Tu horoscopo es acuario");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -42,10 +42,10 @@ public class horoscopo{
       break;
     case 2:
      
-      if ((dia < 22) && (dia > 0)){
+      if ((dia < 21) && (dia > 0)){
         System.out.println("Tu horoscopo es acuario");
       }
-      if ((dia < 22) && (dia > 0)){
+      if ((dia > 21) && (dia > 29)){
         System.out.println("Tu horoscopo es piscis");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -54,7 +54,7 @@ public class horoscopo{
     case 3:
       if ((dia < 22) &&(dia > 0)){
         System.out.println("Tu horoscopo es piscis");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia > 21) && (dia < 32)){
         System.out.println("Tu horoscopo es aries");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -63,7 +63,7 @@ public class horoscopo{
     case 4:
       if ((dia < 22)&&(dia > 0)){
         System.out.println("Tu horoscopo es aries");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia > 21) && (dia < 31)){
         System.out.println("Tu horoscopo es tauro");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -73,7 +73,7 @@ public class horoscopo{
     case 5:
       if ((dia < 22)&&(dia > 0)){
         System.out.println("Tu horoscopo es tauro");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 32 ) && (dia > 21)){
         System.out.println("Tu horoscopo es geminis");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -83,7 +83,7 @@ public class horoscopo{
     case 6:
       if ((dia < 22)&& (dia > 0)){
         System.out.println("Tu horoscopo es geminis");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 31) && (dia > 21)){
         System.out.println("Tu horoscopo es cancer");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -92,7 +92,7 @@ public class horoscopo{
     case 7:
       if ((dia < 22) && (dia > 0)){
         System.out.println("Tu horoscopo es cancer");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 32) && (dia > 21)){
         System.out.println("Tu horoscopo es leo");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -102,7 +102,7 @@ public class horoscopo{
     case 8:
       if ((dia < 22) && (dia > 0)){
         System.out.println("Tu horoscopo es leo");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 32) && (dia > 21)){
         System.out.println("Tu horoscopo es virgo");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -111,7 +111,7 @@ public class horoscopo{
         case 9:
       if ((dia < 22) && (dia > 0)){
         System.out.println("Tu horoscopo es virgo");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 31) && (dia > 21)){
         System.out.println("Tu horoscopo es libra");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -120,7 +120,7 @@ public class horoscopo{
     case 10:
       if ((dia < 22) && (dia > 0)){
         System.out.println("Tu horoscopo es libra");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 32) && (dia > 21)){
         System.out.println("Tu horoscopo es escorpio");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -130,7 +130,7 @@ public class horoscopo{
     case 11:
       if ((dia < 22) && (dia > 0)){
         System.out.println("Tu horoscopo es escorpio");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 31) && (dia > 21)){
         System.out.println("Tu horoscopo es sagitario");
       }else{
         System.out.println("Tu fecha no es correcta");
@@ -140,7 +140,7 @@ public class horoscopo{
     default:
       if ((dia < 22)&&(dia > 0)){
         System.out.println("Tu horoscopo es sagitario");
-      }if ((dia < 22) && (dia > 0)){
+      }if ((dia < 32) && (dia > 21)){
         System.out.println("Tu horoscopo es capricornio");
       }else{
         System.out.println("Tu fecha no es correcta");
