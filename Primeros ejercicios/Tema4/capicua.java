@@ -14,19 +14,20 @@ public class capicua{
     if(numero <= 99999){
     
       if((numero >= 10000)&&(numero<=99999)||(numero <= -10000)&&(numero>= -99999)){
-        if((numero % 10)==(numero / 10000)){
+        if((numero % 10)==(numero / 10000)&&((numero/10)%10)==(numero /1000)%10){
           System.out.println("el numero es capicua");
         }else{
           System.out.println("El numero no es capicua");
         }
       }
       if ((numero >= 1000)&&(numero<10000)||(numero <= -1000)&&(numero> -10000)){
-        if((numero % 10)==(numero / 1000)){
+        if((numero % 10)==(numero / 1000)&&((numero/10)%10)==(numero /100)%10){
           System.out.println("el numero es capicua");
         }else{
           System.out.println("El numero no es capicua");
         }
       }
+
       if ((numero >= 100)&&(numero<1000)||(numero <= -100)&&(numero> -1000)){
         if((numero % 10)==(numero / 100)){
           System.out.println("el numero es capicua");

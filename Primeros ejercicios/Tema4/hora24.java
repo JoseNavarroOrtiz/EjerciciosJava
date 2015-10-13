@@ -12,7 +12,11 @@ public class hora24{
   double hora = Double.parseDouble(System.console().readLine());
   System.out.println("Introduce los minutos");
   double minutos = Double.parseDouble(System.console().readLine());
-  double resultado = ((hora*3600)+(minutos *60));
-  System.out.println("La cantidad de segundos que fatan hasta media noche es " + (86400-resultado));
+      if ((hora <24)&&(hora>=0)&&(minutos<60)&&(minutos>=0)){
+        double resultado = ((hora*3600)+(minutos *60));
+        System.out.println("La cantidad de segundos que fatan hasta media noche es " + (86400-resultado));
+      }else{
+        System.out.println("La hora no es correcta");
+        }
     }
   }
