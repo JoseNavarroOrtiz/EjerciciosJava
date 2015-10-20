@@ -21,7 +21,7 @@ public class calculaPotencia{
         contador++;
       
         }while (exponente != contador);
-      System.out.println("La potencia del numero "+ base+ " es "+ suma);
+      System.out.println("La potencia del numero "+ base+ " con exponete " + exponente + " es "+ suma);
     
     }
   }

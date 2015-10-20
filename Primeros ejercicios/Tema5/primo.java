@@ -11,28 +11,26 @@ public class primo{
       System.out.println("Introduce un numero");
       int numero = Integer.parseInt(System.console().readLine());
       int contador = 2;
+      boolean esPrimo = true;
       
       if((numero==1)||(numero==2)||(numero==3)){
         System.out.println("El numero es primo");
-      }
-      if (numero<0){
-        System.out.println("El numero no es positivo");
-        }else{
-          do{
-            if(numero % contador ==0){
-              System.out.println("El numero es primo");
+      }else{
+        while((contador < numero) && (esPrimo)){
+          if(numero % contador ==0){
+            esPrimo = false;
               
-            }else{
-              System.out.println("El numero no es primo");
-              contador++;
-              }
-          }while(contador != numero);
-                
-            
-          
-        
-      }
-    
-    
+          }else{
+            esPrimo = true;
+           }
+          contador++;
+          }
+          if(esPrimo){
+          System.out.println("El numero es primo");
+          }else{
+          System.out.println("El numero no es primo");
+          }
+        }        
+       
     }
   }
