@@ -1,4 +1,4 @@
-/**
+7/**
  * Este programa realiza la tabla de multiplicar de un numero
  *
  * @author 
