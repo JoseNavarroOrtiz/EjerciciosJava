@@ -10,8 +10,8 @@ public class numerosFibonacci{
       System.out.println("Introduce el numero hasta el que quieres que llegue los numeros Fibonacci");
       int numero = Integer.parseInt(System.console().readLine());
       int contador = 0;
-      int primerF =0;
-      int segundoF=1;
+      int primerF =1;
+      int segundoF=0;
       int suma = 0;
       int aux = 0;
       if(numero < 0){
@@ -20,9 +20,9 @@ public class numerosFibonacci{
       while(numero>contador){
         aux=primerF;
         primerF=segundoF;
-        segundoF=aux+segundoF;
         System.out.println(" "+segundoF);
         contador++;
+        segundoF=aux+segundoF;
         
         }
   

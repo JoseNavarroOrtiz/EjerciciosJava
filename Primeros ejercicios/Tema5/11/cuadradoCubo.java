@@ -13,7 +13,7 @@ public class cuadradoCubo{
       int contador =0;
       
       while(contador < 5){
-      System.out.println("El cuadrado es " + numero*numero+ " cm^2 y el cubo es " + (numero*numero*numero)+ "cm^3");
+      System.out.println("El cuadrado del numero "+ numero+" es " + numero*numero+ " cm² y el cubo es " + (numero*numero*numero)+ "cm³");
       numero++;
       contador++;
       }
