@@ -11,9 +11,9 @@ public class operaciones{
     System.out.println("Este programa realiza una serie de calculos ");
     System.out.println("como la media de los impares, el mayor de los pares, cuenta los numeros y se utilizara un valor negativo para salir");
     double sumaMedia =0;
-    int contador = 0;
+    double contador = 0;
     double mayorPares=0;
-    int cuentaNumeros =0;
+    double cuentaNumeros =0;
 
       do{
       System.out.println("Introduce un numero");
@@ -22,6 +22,7 @@ public class operaciones{
             if(numero% 2 == 0){
                 if(numero>mayorPares){
                   mayorPares= numero;
+                }
             }else{
               sumaMedia = sumaMedia + numero;
               contador++;

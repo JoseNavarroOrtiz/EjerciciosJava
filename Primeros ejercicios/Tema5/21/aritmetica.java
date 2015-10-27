@@ -7,34 +7,15 @@
 public class aritmetica{be
   public static void main(String[] args) {
   
-  
-  
-  int numero = 0;
-  int sumaMedia =0;
-  int mediaImpares = (sumaMedia/contador);
-  int contador = 0;
-  int mayorPares=0;
-  int cuentaNumeros =0;
-  do{
-    if((numero<0)){
-    System.out.println("La media de los impares es "+ mediaImpares );
-    System.out.println("El numero mayor es "+mayorPares);
-    System.out.println("Los numeros que se han introducido es "+ contador);
-    }else{
-      cuentaNumeros++;
-      while(numero % 2 != 0){
-        sumaMedia = sumaMedia + numero;
-        contador++;
-      } 
-      while(numero% 2 == 0){
-        if(numero>mayorPares){
-         mayorPares= numero;
-        } 
-        
-      }
-     
-     }
-    }while(numero>=0);
-  
-    }
+    System.out.println("Este programa te realizara media impares,mayor de los pares,");
+    System.out.println(",cuenta numeros introducidos y introduce un negativo para salir"");
+    System.out.println("Introduce un numero");
+    double numero = Double.parseDouble(System.console().readLine());
+
+
+
+    int contador =0;
+
+
   }
+}
