@@ -13,21 +13,25 @@ public class intento2{
     double numero = 0;
     double mediaImpares = 0;
     double mayorPares=0;
-    double contador =0;
+    int contador =0;
+    int contadorImpares=0;
     do{
       System.out.println("Introduce un numero");
       numero=Double.parseDouble(System.console().readLine());
-      if (numero % 2 !=0 ){
-        mediaImpares=mediaImpares+numero;
-      }else{
-        if(mayorPares<numero){
-          mayorPares = numero;
-        } 
+      if(numero>0){
+        if (numero % 2 !=0 ){
+          mediaImpares=mediaImpares+numero;
+          contadorImpares++;
+        }else{
+          if(mayorPares<numero){
+            mayorPares = numero;
+          }
+        }
+        contador++;
       }
-      contador++;
     }while(numero>=0);
-    System.out.println("La media de los impares es "+ (mediaImpares/contador) );
+    System.out.println("La media de los impares es "+ (mediaImpares/contadorImpares) );
     System.out.println("El numero mayor es "+mayorPares);
-    System.out.println("Los numeros que se han introducido es "+ contador);
+    System.out.println("Los numeros que se han introducido es "+ (contador-1));
   }
 }

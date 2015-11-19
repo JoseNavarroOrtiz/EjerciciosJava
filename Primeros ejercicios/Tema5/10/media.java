@@ -9,24 +9,27 @@ public class media{
   
     System.out.println("Este programa realiza la media de los numeros positivos que introduzcas,para terminar marca un numero negativo");
     
-    int suma = 0;
-    int contador =0;
+    double suma = 0;
+    double contador =0;
     
-    int numero = 0;
-    
-    while (numero >= 0){
-      
-      System.out.println("Introduce un numero");
+    double numero = 0;
+     System.out.println("Introduce un numero");
       numero = Integer.parseInt(System.console().readLine());
     
-      if(numero>=0){
-      contador++;
+    while (numero >= 0){
+       contador++;
       suma = suma + numero;
-      }else{
-      System.out.println("La media seria " + ((suma/contador)));
-      }
+      
+      System.out.println("Vuelve a introducir otro numero");
+      numero = Integer.parseInt(System.console().readLine());
+  
+     
+    
     }
-  
-  
+    if(contador>0){
+     System.out.println("La media seria " + ((suma/contador)));
+    }else{
+     System.out.println("El numero no tiene media"); 
+    }
     }
   }

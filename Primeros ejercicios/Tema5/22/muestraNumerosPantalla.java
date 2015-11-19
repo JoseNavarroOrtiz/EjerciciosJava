@@ -7,13 +7,24 @@
 public class muestraNumerosPantalla{
   public static void main(String[] args) {
   
-      System.out.println("Muestra por pantalla todos los numeros desde 2 hasta 100");
+      System.out.println("Muestra por pantalla todos los primos desde 2 hasta 100");
       
-      for(int i=2;i<=100;i++){
-        if(i%2!=0){
-          System.out.print(i+",");
-        }
-      }
-    
+      int contador = 1;
+      boolean esPrimo = true;
+      
+      
+        while((contador <=100) && (esPrimo)){
+          if(numero % contador ==0){
+            esPrimo = false;
+              
+          }else{
+            esPrimo = true;
+           }
+          contador++;
+          
+          if(esPrimo){
+          System.out.println(contador);
+          }
+        }        
   }
 }

@@ -15,14 +15,16 @@ public class numeros7En7{
       int contador = 0;
       contador = primerNumero;
        System.out.println();
-       System.out.println("Los numeros son los siguiente:");
-      while (segundoNumero >= contador){
        
-        System.out.print(", " + contador);
-        
-        contador = contador+7;
+      if (primerNumero==segundoNumero){
+        System.out.println("El numero es el mismo,deben ser diferente");
+      }else{
+        while (segundoNumero >= contador){
+          System.out.print(", " + contador);
+          contador = contador+7;
         }
-  
+        System.out.println("Los numeros son los siguiente:");
+      }
   
     }
   }

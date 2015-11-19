@@ -6,7 +6,8 @@
 
 public class posicionCifras{
   public static void main(String[] args) {
-  
+  //patra contar de izquierda a derecha habra que darle la vuelta al numero y al mostrarlo
+  // se severa de iyquierda a derecha.para darle la vuelta mirar los ejercicios del profesor
     System.out.println("Este programa deberas introducir un numero y ");
     System.out.println("te mostrara las posiciones en las que esta el numero que has introducido");
     System.out.println("Introduce el numero que quieras que lea");

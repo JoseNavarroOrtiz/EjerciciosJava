@@ -16,7 +16,7 @@ public class suma100Numeros{
       int contador = 0;
       
       if(numero>=0){
-        numero = numero + 100;
+        numero = (numero) + 100;
       while(numero != contador){
         
         suma = suma + numero1;
